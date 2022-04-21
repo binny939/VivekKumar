@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'default'
+  vmImage: 'vm-1'
 
 variables:
   solution: '**/*.sln'
